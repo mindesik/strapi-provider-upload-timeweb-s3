@@ -1,0 +1,36 @@
+{
+  "name": "strapi-provider-upload-timeweb-s3",
+  "version": "1.0.0",
+  "description": "Timeweb S3 provider for Strapi upload plugin",
+  "homepage": "http://strapi.io",
+  "keywords": [
+    "upload",
+    "timeweb",
+    "spaces",
+    "strapi",
+    "provider"
+  ],
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib",
+  "dependencies": {
+    "aws-sdk": "^2.1035.0"
+  },
+  "strapi": {
+    "isProvider": true
+  },
+  "author": {
+    "email": "mindesik@icloud.com",
+    "name": "Min De Sik"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mindesik/strapi-provider-upload-timeweb-s3.git"
+  },
+  "engines": {
+    "node": ">= 10.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "license": "MIT"
+}
