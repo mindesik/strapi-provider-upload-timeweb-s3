@@ -35,3 +35,7 @@ jobs:
         with:
           registry: https://registry.npmjs.org/
           token: ${{ secrets.NPM_TOKEN }}
+      - uses: marvinpinto/action-automatic-releases@latest
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          prerelease: false
